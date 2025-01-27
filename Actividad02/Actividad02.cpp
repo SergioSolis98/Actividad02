@@ -4,13 +4,14 @@ const int NUM = 8;
 int main()
 {
 	int nums[NUM];
-	int total;
+	int total=0;
 	for (int i = 0;i < NUM;i++)
-	{
+	    {
 		cout << "Por favor, introduzca el número";
 		cin >> nums[i];
 		total += nums[i];
-	}
+	    }
 	cout << "El total de números es" << total << endl;
 	system("pause");
-
+	return 0;
+}
